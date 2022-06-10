@@ -57,7 +57,7 @@
     color: var(--color-light);
 }
 .about-content p{
-    margin: 2rem 0.3rem 2.6rem;
+    margin: 2rem 0.3rem 1rem 0.3rem;
     color: var(--color-light);
     text-align: justify;
 }
