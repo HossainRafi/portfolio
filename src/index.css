@@ -23,7 +23,7 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
 
-  --transition: all 400ms ease;
+  --transition: all 800ms ease;
 }
 
 html {
@@ -50,7 +50,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6 {
   font-weight: 500;
 }
 
@@ -63,15 +64,17 @@ section {
   height: 100vh;
 }
 
-section > h2,
-section > h5 {
-  text-align: center;
-  color: var(--color-light);
-}
-
 section > h2 {
+  text-align: center;
   color: var(--color-primary);
   margin-bottom: 3rem;
+  font-size: 2.8rem;
+}
+
+section > h5 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--color-light);
 }
 
 .text-light {
@@ -119,23 +122,24 @@ img {
 }
 
 /* ========== MEDIA QUERIES FOR MEDIUM DEVICES ========== */
-@media  screen and (max-width: 1024px) {
-  .container{
+@media screen and (max-width: 950px) {
+  .container {
     width: var(--container-width-md);
   }
 
-  section{
-    margin-top: 6rem;
+  section {
+    margin-top: 5rem;
+    height: auto;
   }
 }
 
 /* ========== MEDIA QUERIES FOR SMALL DEVICES ========== */
-@media  screen and (max-width: 600px) {
-  .container{
+@media screen and (max-width: 600px) {
+  .container {
     width: var(--container-width-sm);
   }
 
-  section{
+  section {
     margin-bottom: 2rem;
   }
 }
