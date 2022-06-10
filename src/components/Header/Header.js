@@ -24,13 +24,13 @@ const Header = () => {
                       steps={[
                         "Front-end Developer🎓",
                         1000,
-                        "MERN Stack Developer💎",
+                        "MERN Stack Developer☯️",
                         1000,
-                        "Full Stack Developer⌨️",
+                        "Full Stack Developer☣️",
                         1000,
-                        "React.js Developer💻",
+                        "React.js Developer⚛️",
                         1000,
-                        "JavaScript Developer👑",
+                        "JavaScript Developer😎",
                         1000,
                       ]}
                     />
