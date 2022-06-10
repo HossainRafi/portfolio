@@ -7,7 +7,7 @@ import { BsWhatsapp, BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="profile-container">
         <div className="profile-parent">
           <div className="profile-details">
@@ -40,16 +40,32 @@ const Header = () => {
             </div>
             <div className="social">
               <div className="social-icon">
-                <a href="#">
+                <a
+                  href="https://web.facebook.com/rafi.barishal/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <FaFacebookSquare />
                 </a>
-                <a href="#">
+                <a
+                  href="https://web.whatsapp.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <BsWhatsapp />
                 </a>
-                <a href="#">
+                <a
+                  href="https://www.linkedin.com/in/-rafi/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <BsLinkedin />
                 </a>
-                <a href="#">
+                <a
+                  href="https://github.com/HossainRafi"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <BsGithub />
                 </a>
               </div>
