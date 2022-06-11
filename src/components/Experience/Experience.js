@@ -83,18 +83,99 @@ const Experience = () => {
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
                 <h4>REST API</h4>
+                <small className="text-light">Beginner</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* <div className="others">
+          <h3>Others Technologies</h3>
+          <div className="experience-content">
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Firebase</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience-details">
               <BsPatchCheckFill className="experience-details-icon" />
               <div>
-                <h4>NoSQL</h4>
-                <small className="text-light">Beginner</small>
+                <h4>Axios</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>AOS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Stripe</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Rechart</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Sendgrid</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
         </div>
+        <div className="tools">
+          <h3>Development Tools</h3>
+          <div className="experience-content">
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>VS Code</h4>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Figma</h4>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Chrome</h4>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Heroku</h4>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Netlify</h4>
+              </div>
+            </article>
+            <article className="experience-details">
+              <BsPatchCheckFill className="experience-details-icon" />
+              <div>
+                <h4>Github</h4>
+              </div>
+            </article>
+          </div>
+        </div> */}
       </div>
     </section>
   );
