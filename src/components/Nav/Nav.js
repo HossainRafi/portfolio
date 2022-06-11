@@ -29,13 +29,13 @@ const Nav = () => {
       >
         <BiWorld />
       </a>
-      <a
+      {/* <a
         href="#services"
         onClick={() => setActive("#services")}
         className={active === "#services" ? "active" : ""}
       >
         <RiServiceLine />
-      </a>
+      </a> */}
       <a
         href="#portfolio"
         onClick={() => setActive("#portfolio")}
