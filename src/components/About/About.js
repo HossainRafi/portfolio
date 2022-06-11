@@ -6,7 +6,7 @@ import { FaAward, FaUsers, FaFolderOpen } from "react-icons/fa";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know</h5>
+      <h5>Here Is</h5>
       <h2>About Me</h2>
       <div className="container about-container">
         <div className="about-me">
@@ -33,10 +33,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-            voluptate quae accusamus incidunt ducimus quibusdam dicta aliquid
-            eaque. Exercitationem corporis quas omnis laudantium dolorem,
-            possimus quidem assumenda necessitatibus qui quia?
+            I am a beginner in Programming and Web Development community. Last one year was very hard time for me as a beginner. I worked hard to learn many technologies.Such as React.js, Node.js, JavaScript, HTML, CSS, MongoDB, Github, Firebase, Heroku etc. I Challenged myself to learn TypeScript, ReactNative, Redux, JQuery in next six months. After six month I want to see myself as a proper MERN Stack Web Developer. I'm trying hard and soul to achieve my goal.
           </p>
           <a href="#contact" className="btn">
             {" "}

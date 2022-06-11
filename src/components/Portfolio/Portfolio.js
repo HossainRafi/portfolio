@@ -7,7 +7,7 @@ import Capture from "../../assets/capture-1.png";
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>Want To Know</h5>
+      <h5>Take A Look Into</h5>
       <h2>My Recent Projects</h2>
 
       <div className="container portfolio-container">
