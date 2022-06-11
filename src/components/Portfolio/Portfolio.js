@@ -1,4 +1,5 @@
 import React from "react";
+import "./Portfolio.css"
 import Crafty from "../../assets/crafty-1.png";
 import Warehouse from "../../assets/warehouse-1.png";
 import Capture from "../../assets/capture-1.png";
@@ -14,37 +15,43 @@ const Portfolio = () => {
           <div className="portfolio-item-img">
             <img src={Crafty} alt="" />
           </div>
-          <h3>Crafty (A Tools Manufacturing Website)</h3>
-          <a href="https://github.com/HossainRafi" className="btn">
-            Github
-          </a>
-          <a href="https://crafty-55e7d.web.app/" className="btn">
-            Live Demo
-          </a>
+          <div className="portfolio-content">
+            <h3>Crafty</h3>
+            <a href="https://github.com/HossainRafi" className="button">
+              Github
+            </a>
+            <a href="https://crafty-55e7d.web.app/" className="button">
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-img">
-            <img src={Crafty} alt="" />
+            <img src={Warehouse} alt="" />
           </div>
-          <h3>Cellphone Warehouse (A Mobile Warehouse Website)</h3>
-          <a href="https://github.com/HossainRafi" className="btn">
-            Github
-          </a>
-          <a href="https://crafty-55e7d.web.app" className="btn">
-            Live Demo
-          </a>
+          <div className="portfolio-content">
+            <h3>Cellhouse</h3>
+            <a href="https://github.com/HossainRafi" className="button">
+              Github
+            </a>
+            <a href="https://crafty-55e7d.web.app" className="button">
+              Live Demo
+            </a>
+          </div>
         </article>
         <article className="portfolio-item">
           <div className="portfolio-item-img">
             <img src={Capture} alt="" />
           </div>
-          <h3>Capture Freaks (A Photographer Website)</h3>
-          <a href="https://github.com/HossainRafi" className="btn">
-            Github
-          </a>
-          <a href="https://assignment-10-8d187.web.app" className="btn">
-            Live Demo
-          </a>
+          <div className="portfolio-content">
+            <h3>Capture Freaks</h3>
+            <a href="https://github.com/HossainRafi" className="button">
+              Github
+            </a>
+            <a href="https://assignment-10-8d187.web.app" className="button">
+              Live Demo
+            </a>
+          </div>
         </article>
       </div>
     </section>
