@@ -31,13 +31,29 @@ form {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+  margin: 1rem 0;
 }
 input,
 textarea {
-    width: 100%;
-    padding: .8rem;
-    border-radius: 0.5rem;
-    background: transparent;
-    border: 2px solid var(--color-primary-variant);
-    resize: none;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: var(--color-white);
+}
+
+/* ========== MEDIA QUERIES FOR MEDIUM DEVICES ========== */
+@media screen and (max-width: 950px) {
+  .container.contact-container {
+    grid-template-columns: 1fr, 1fr;
+    gap: 2rem;
+  }
+}
+/* ========== MEDIA QUERIES FOR SMALL DEVICES ========== */
+@media screen and (max-width: 600px) {
+  .container.contact-container {
+    width: var(--container-width-sm);
+  }
 }
