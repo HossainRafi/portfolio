@@ -17,10 +17,20 @@ const Portfolio = () => {
           </div>
           <div className="portfolio-content">
             <h3>Crafty</h3>
-            <a href="https://github.com/HossainRafi" className="button">
+            <a
+              href="https://github.com/HossainRafi"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
               Github
             </a>
-            <a href="https://crafty-55e7d.web.app/" className="button">
+            <a
+              href="https://crafty-55e7d.web.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
               Live Demo
             </a>
           </div>
@@ -31,10 +41,20 @@ const Portfolio = () => {
           </div>
           <div className="portfolio-content">
             <h3>Cellhouse</h3>
-            <a href="https://github.com/HossainRafi" className="button">
+            <a
+              href="https://github.com/HossainRafi"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
               Github
             </a>
-            <a href="https://crafty-55e7d.web.app" className="button">
+            <a
+              href="https://warehouse-8c8c8.web.app"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
               Live Demo
             </a>
           </div>
@@ -45,10 +65,20 @@ const Portfolio = () => {
           </div>
           <div className="portfolio-content">
             <h3>Capture Freaks</h3>
-            <a href="https://github.com/HossainRafi" className="button">
+            <a
+              href="https://github.com/HossainRafi"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
               Github
             </a>
-            <a href="https://assignment-10-8d187.web.app" className="button">
+            <a
+              href="https://assignment-10-8d187.web.app"
+              target="_blank"
+              rel="noreferrer"
+              className="button"
+            >
               Live Demo
             </a>
           </div>
